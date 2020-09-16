@@ -117,7 +117,7 @@ nav button i {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
     #header {
         background: rgba(255, 255, 255, .4);
         height: 4rem;
@@ -168,7 +168,6 @@ nav button i {
     padding: 1.2rem 0 1.2rem 0;
     background-color: #f7f7f7;
     border-bottom: 1px solid #ededed;
-    margin-bottom: 2.5rem;
 }
 .breadcrumbs h2 {
     font-size: 2rem;
@@ -197,6 +196,14 @@ nav button i {
 }
 .breadcrumbs ol li a:hover {
     color: #3b3b3b;
+}
+
+/* =======================
+# Main secction
+==========================*/
+main {
+    background-size: cover;
+    padding-top: 2rem;
 }
 
 
@@ -532,6 +539,53 @@ section {
     opacity: 1;
 }
 
+/* ==============================================
+# Our Skills
+================================================*/
+.skills .content h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #3b3b3b;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1.2rem;
+    padding: 0;
+}
+.skills .comtent ul {
+    list-style: none;
+}
+.skills .comtent ul li {
+    padding-bottom: .6rem;
+}
+.skills .comtent ul i {
+    font-size: 1.2rem;
+    padding-right: .2rem;
+    color: #05caca;
+}
+
+.skills .progress {
+    padding: 1rem;
+}
+.skills .progress .skill {
+    margin: 0 0 .3rem 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    color: #3b3b3b;
+}
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+.skills .progress-bar-wrap {
+    background-color: #ededed;
+}
+.skills .progress-bar {
+    width: .1rem;
+    height: .6rem;
+    transition: .9s;
+    background-color: #05caca;
+}
+
 /* =============================================
 # Footer
 ================================================*/
@@ -692,10 +746,12 @@ section {
 # Counts
 =====================================*/
 .counts .count-box {
-    box-shadow: -.6rem -.3rem 2.5rem 0 rgba(0, 0, 0, .1);
+    box-shadow: -.6rem -.3rem 2.5rem 0 rgba(0, 0, 0, .2);
     padding: 1.8rem;
     width: 100%;
     display: block;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 1rem 1rem ;
 }
 .counts .count-box i {
     font-size: 1.8rem;
@@ -938,3 +994,105 @@ section {
 /*================================
 # End of portfolio.html Styles
 ====================================*/
+
+/* =============================================
+# Pricing.html
+==============================================*/
+.pricing .row {
+    padding-top: 2.5rem;
+}
+.pricing .box {
+    padding: 2.5rem;
+    margin-bottom: 1.8rem;
+    box-shadow: 0 0 .8rem rgba(73, 78, 92, .15);
+    background-color: #fff;
+    text-align: center;
+}
+.pricing h3 {
+    font-weight: 300;
+    margin-bottom: .9rem;
+    font-size: 1.7rem;
+}
+.pricing h4 {
+    font-size: 2.8rem;
+    color: #06c7c7;
+    font-weight: 400;
+    font-weight: "Open Sans", sans-serif;
+    margin-bottom: 1.5rem;
+}
+.pricing h4 span {
+    color: #6e6e6e;
+    font-size: 1.1rem;
+    display: block;
+}
+.pricing ul {
+    padding: 0;
+    list-style: none;
+    color: #999;
+    text-align: left;
+    line-height: 1.2rem;
+}
+.pricing ul li {
+    padding-bottom: .7rem;
+}
+.pricing ul i {
+    color: #06c7c7;
+    font-size: 1.1rem;
+    padding-right: 0.25rem;
+}
+.pricing ul .na {
+    color: #ebebeb;
+}
+.pricing ul .na span {
+    text-decoration: line-through;
+}
+.pricing .buy-btn {
+    background-color: #3b3b3b;
+    display: inline-block;
+    padding: .5rem 1.8rem;
+    border-radius: 1.2rem;
+    color: #fff;
+    transition: none;
+    font-size: .75rem;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    transition: .3s;
+}
+.pricing .buy-btn:hover {
+    background-color: #05caca;
+}
+.pricing .featured {
+    z-index: 10;
+    margin: -1.8rem -.27rem 0 -.27rem;
+}
+.pricing .featured .buy-btn {
+    background-color: #688d8d;
+}
+.pricing .featured .buy-btn:hover {
+    background-color: #05caca;
+}
+
+@media (max-width: 992px) {
+    .pricing .box {
+      max-width: 60%;
+      margin: 0 auto 1.8rem auto;
+    }
+  }
+  
+@media (max-width: 767px) {
+    .pricing .box {
+        max-width: 80%;
+        margin: 0 auto 1.8rem auto;
+    }
+}
+
+@media (max-width: 420px) {
+    .pricing .box {
+        max-width: 100%;
+        margin: 0 auto 1.8rem auto;
+    }
+}
+
+/* =============================================
+# End of Pricing.html
+==============================================*/
