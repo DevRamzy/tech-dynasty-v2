@@ -849,7 +849,12 @@ section {
     border-radius: 50px;
     padding: 2px 15px;
   }
-  
+  .portfolio #portfolio-filters li a {
+      color: #000000;
+  }
+  .portfolio #portfolio-filters li a:hover {
+    color: #6e6e6e;
+  }  
   .portfolio #portfolio-filters li {
     cursor: pointer;
     display: inline-block;
