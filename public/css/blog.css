@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  */
+.st-row {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.featured-1 {
+    margin-left: 1rem;
+    background-size: cover;
+    height: 40vh;
+    width: 20%;
+}
+.card-1 {
+    background-color: white;
+}
+.featured-2 {
+    margin-left: 1rem;
+    background-size: cover;
+    height: 60vh;
+    width: 45%;
+}
+.card-2 {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    background-color: white;
+}
+.featured-3 {
+    margin-left: 3rem;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 70vh;
+    width: 25%;
+}
+.card-3 {
+    background-color: white;
+}
+/*  */
