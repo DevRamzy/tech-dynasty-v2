@@ -113,7 +113,7 @@ nav button i {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     #header {
         background: rgba(255, 255, 255, .4);
         height: 4rem;
@@ -122,7 +122,7 @@ nav button i {
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .5);
         width: 100vw;
         padding: 0 1rem ;
-        /* position: relative; */
+        position: fixed;
     }
     nav {
         background: rgba(255, 255, 255, .7);
